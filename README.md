@@ -53,8 +53,13 @@ EOF  help  quit
 $
   
   Environment
+  
 Language: Python3
+  
 OS: Ubuntu 20.04 LTS
+  
 Style guidelines: [PEP 8 (version 3.10)](https://peps.python.org/pep-0619/) || [Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/l%5Catest/example_google.html) || [WC3 Validator](https://github.com/holbertonschool/W3C-Validator)
+  
 Authors
+  
 Jenyo Olumide & Osaze Nwandibie
