@@ -3,7 +3,7 @@ This is the first phase of the Airbnb Clone: the console. This repository holds 
 
 How to Use Command Interpreter
 Colons can be used to align columns.
---------------------------------------------------------------------------------------------------------|
+
 | help        | help                     | display all command available                                |
 | ------------|:-----------------------: | ------------------------------------------------------------:|
 | create      | create <class>           | creates new object (ex. a new User, Place)                   |
@@ -13,4 +13,6 @@ Colons can be used to align columns.
 | all         | User.all()               | display all objects in class                                 |
 | count       | User.count()             | returns count of objects in specified class                  |
 | quit        | quit                     | exits                                                        |
----------------------------------------------------------------------------------------------------------
+
+  
+  
