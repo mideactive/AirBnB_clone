@@ -6,7 +6,7 @@ How to Use Command Interpreter
 Colons can be used to align columns.
 --------------------------------------------------------------------------------------------------------|
 | help        | help           | display all command available                                          |
-| ------------- |:-------------:| -----:                                                                |
+| ------------|:-------------: | -----:                                                                 |
 | create      | create <class> | creates new object (ex. a new User, Place)                             |
 | update      | User.update('123', {'name' : 'Greg_n_Mel'})      |   updates attribute of an object     |
 | destroy     | User.destroy('123')      |    destroys specified object                                 |
