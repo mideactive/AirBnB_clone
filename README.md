@@ -14,5 +14,47 @@ Colons can be used to align columns.
 | count       | User.count()             | returns count of objects in specified class                  |
 | quit        | quit                     | exits                                                        |
 
+  Usage
+Interactive Mode
+
+$ ./console.py
+(hbnb) help
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+
+(hbnb)
+(hbnb)
+(hbnb) quit
+$
   
   
+  Non-Interactive Mode
+
+$ echo "help" | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+$ cat test_help
+help
+$
+$ cat test_help | ./console.py
+(hbnb)
+
+Documented commands (type help <topic>):
+========================================
+EOF  help  quit
+(hbnb)
+$
+  
+  Environment
+Language: Python3
+OS: Ubuntu 20.04 LTS
+Style guidelines: [PEP 8 (version 3.10)](https://peps.python.org/pep-0619/) || Google Style Python Docstrings || WC3 Validator
+Authors
+Jenyo Olumide & Osaze Nwandibie
